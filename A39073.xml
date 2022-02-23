@@ -1,0 +1,633 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An Explanation of the terms, order, and usefulness of the liturgy of the Church of England by way of question and answer, recommended to be learned after the church catechism.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1692</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 19 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A39073</idno>
+            <idno type="STC">Wing E3886</idno>
+            <idno type="STC">ESTC R37813</idno>
+            <idno type="EEBO-CITATION">17021956</idno>
+            <idno type="OCLC">ocm 17021956</idno>
+            <idno type="VID">105835</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A39073)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 105835)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1614:54)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An Explanation of the terms, order, and usefulness of the liturgy of the Church of England by way of question and answer, recommended to be learned after the church catechism.</title>
+               </titleStmt>
+               <extent>[2], 14 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Sam. Keble ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1692.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>"Imprimatur. March 20, 1691. C. Alston."</note>
+                  <note>Advertisement: t.p. verso and p. 14.</note>
+                  <note>Imperfect: pages cropped with print show-through and slight loss of print.</note>
+                  <note>Reproduction of original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Church of England --  Catechisms.</term>
+               <term>Catechisms, English.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-09</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2010-09</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:105835:1"/>
+            <pb facs="tcp:105835:1" rendition="simple:additions"/>
+            <p>AN EXPLANATION OF THE <hi>Terms, Order,</hi> and <hi>
+                  <g ref="char:V">Ʋ</g>ſefulneſs</hi> OF THE LITURGY OF THE <hi>Church of England.</hi>
+            </p>
+            <p>By Way of QUESTION and ANSWER, Recommended to be learned af<g ref="char:EOLhyphen"/>ter the Church Catechiſm.</p>
+            <p>
+               <floatingText xml:lang="eng">
+                  <body>
+                     <div type="imprimatur">
+                        <p>Imprimatur.</p>
+                        <closer>
+                           <dateline>
+                              <date>March 20. 1691.</date>
+                           </dateline> 
+                           <signed>C. Alſton.</signed>
+                        </closer>
+                     </div>
+                  </body>
+               </floatingText>
+            </p>
+            <p>
+               <hi>LONDON:</hi> Printed, for <hi>Sam. Keble,</hi> at the <hi>Great Turks-Head</hi> over againſt <hi>Fetter-Lane,</hi> in <hi>Fleet ſtreet</hi> 1602</p>
+         </div>
+         <div type="publishers_advertisement">
+            <pb facs="tcp:105835:2"/>
+            <head>ADVERTISEMENT.</head>
+            <p>A Collection of Private Forms of Prayers out of the Common-Prayer-Book, for Morning, Noon and Night, and other ſpecial Occaſions, being in a different Method from any Former, by the Author of the Weeks Pre<g ref="char:EOLhyphen"/>paration to the Sacrament, <hi>&amp;c.</hi> and the Pre<g ref="char:EOLhyphen"/>paration to a Holy Life, and Devotions for the more Pious obſerving the Holy time of <hi>Lent.</hi> Together with the Holy Feaſts and Faſts as they are obſerved in the Church of <hi>England</hi> Explained, and the Reaſons why they are yearly Celebrated.</p>
+            <p>A Table to all the Epiſtles and Goſpels in the Book of Common Prayer, ſo that you may find any Texts of Scripture or Chapter, being contained in them, when quoted; alſo to find what Sunday it is in <hi>Lent,</hi> or any other part of the Year, though you know not what Sunday it is, to be found in an Al<g ref="char:EOLhyphen"/>phabetical manner. This Table may be put into your Common-Prayer-Book, without new binding, being ſo ſmall a thing.</p>
+            <p>The Hiſtory of the <hi>Old</hi> and <hi>New Teſtament</hi> lively deſcrib'd in Figures, or Cuts 24<hi rend="sup">o</hi>.</p>
+            <p>Printed for, and Sold by <hi>Samuel Keble</hi> at the <hi>Turks-Head</hi> in <hi>Fleet-ſtreet.</hi>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:105835:2"/>
+            <head>AN EXPLANATION OF THE Terms, Order, and Uſefulneſs OF THE LITURGY OF THE Church of <hi>ENGLAND.</hi>
+            </head>
+            <p>
+               <label>Q</label> 
+               <hi>WHY is the Liturgy of the Church of <hi>England</hi>called <hi>Common-Prayer?</hi>
+               </hi>
+            </p>
+            <p>
+               <label>A.</label> It is not to be underſtood, as com<g ref="char:EOLhyphen"/>mon ſignifies a thing of little value, but it denotes a form of Prayer, in which we have all a common intereſt, as our Savi<g ref="char:EOLhyphen"/>our is ſtiled the Common Saviour, a Form in which all of the ſame Commu<g ref="char:EOLhyphen"/>nion are to joyn.</p>
+            <p>
+               <label>Q</label> 
+               <hi>What is the meaning of the word <hi>Li<g ref="char:EOLhyphen"/>turgy?</hi>
+               </hi>
+            </p>
+            <p>
+               <label>A.</label> It ſignifies the Publick Miniſtry, it being derived from the <hi>Greek</hi> word <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>Publicus,</hi> and <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>O<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>u<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi>
+            </p>
+            <p>
+               <pb n="2" facs="tcp:105835:3"/>
+               <label>Q.</label> 
+               <hi>What is the Kalender?</hi>
+            </p>
+            <p>
+               <label>A.</label> An uſeful enumeration of the Months, Weeks and Days of the Year, together with an account of the Leſſons to be read daily throughout the Year.</p>
+            <p>
+               <label>Q.</label> 
+               <hi>Why are choice Sentences of Scripture ſet before the Morning and Evening Service?</hi>
+            </p>
+            <p>
+               <label>A.</label>
+               <list>
+                  <item>1. The better to prepare peoples hearts to the performance of thoſe holy duties following with devotion.</item>
+                  <item>2. To mind us of our own miſery, and God's mercy.</item>
+               </list>
+            </p>
+            <p>
+               <label>Q</label> 
+               <hi>Of what uſe is the Exhortation?</hi>
+            </p>
+            <p>
+               <label>A.</label> Therein the Miniſter exhorts the people, in an Apoſtolical ſtile to confeſs their ſins humbly to the Lord, who is able to hear becauſe Almighty, and willing to help, becauſe moſt merciful.</p>
+            <p>
+               <label>Q.</label> 
+               <hi>Why doth the Church begin her Ser<g ref="char:EOLhyphen"/>vice with Confeſſion of Sins?</hi>
+            </p>
+            <p>
+               <label>A.</label>
+               <list>
+                  <item>1. Becauſe our ſins make a ſepara<g ref="char:EOLhyphen"/>tion betwixt God and us, hinder our Prayers from aſcending, and God's bleſ<g ref="char:EOLhyphen"/>ſings from deſcending.</item>
+                  <item>2. Becauſe it was the practice of God's own people the <hi>Jews,</hi> and of the Primi<g ref="char:EOLhyphen"/>tive Church of Chriſt ſo to begin, and to do it in this manner as our Church pre<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" extent="1 chunk">
+                        <desc>…</desc>
+                     </gap> 
+                     <gap reason="illegible" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>
+                  </item>
+               </list>
+            </p>
+            <p>
+               <pb n="3" facs="tcp:105835:3"/>
+               <label>Q.</label> 
+               <hi>Why is the Confeſſion to be made of all the People after the Miniſter?</hi>
+            </p>
+            <p>
+               <label>A.</label> Becauſe the <hi>Miniſter</hi> is the peoples mouth to God, both in going before, and in inſtructing them.</p>
+            <p>
+               <label>Q.</label> 
+               <hi>Why is this Confeſſion, and our Prayers to be made kneeling?</hi>
+            </p>
+            <p>
+               <label>A.</label>
+               <list>
+                  <item>1. That the lowlineſs of our bodies may expreſs the humbleneſs of our minds.</item>
+                  <item>2. Becauſe it is the fitteſt poſture for Penitents.</item>
+               </list>
+            </p>
+            <p>
+               <label>Q.</label> 
+               <hi>Why is the Abſolution to be pronoun<g ref="char:EOLhyphen"/>ced by the Miniſter alone?</hi>
+            </p>
+            <p>
+               <label>A.</label> Becauſe it is a branch of his Mini<g ref="char:EOLhyphen"/>ſterial Function; and becauſe it is an act of authority, his manner is to do it ſtanding.</p>
+            <p>
+               <label>Q.</label> 
+               <hi>Why are the People to anſwer, <hi>Amen</hi>?</hi>
+            </p>
+            <p>A. becauſe it is a ſignification of their aſſent to the procedeing Prayer.</p>
+            <p>
+               <label>Q.</label> 
+               <hi>Why is the Prieſt to begin the Lord's Prayer with an audible voice?</hi>
+            </p>
+            <p>
+               <label>A.</label>
+               <list>
+                  <item>1. That the Congregation may the better hear, and joyn with the Miniſter in that moſt Excellent part of ſervice.</item>
+                  <item>2. To ſhew how boldly, and yet humbly too, we may pray to the Fa<g ref="char:EOLhyphen"/>ther, when we uſe his Son's both Name and Word.</item>
+               </list>
+            </p>
+            <p>
+               <pb n="4" facs="tcp:105835:4"/>
+               <label>Q.</label> 
+               <hi>Why is the Lord's Prayer ſo frequent<g ref="char:EOLhyphen"/>ly uſed in our Liturgy?</hi>
+            </p>
+            <p>
+               <label>A.</label>
+               <list>
+                  <item>1. Becauſe it is the pattern of Prayer.</item>
+                  <item>2. Becauſe it is the moſt abſolute and perfect Form, and gives perfection to all the reſt.</item>
+                  <item>3. In imitation of our Saviour, who often repeated the ſame words.</item>
+               </list>
+            </p>
+            <p>
+               <label>Q</label> 
+               <hi>What are the following Verſes with their Reſponds?</hi>
+            </p>
+            <p>
+               <label>A.</label> Canonical Scripture ſorted out for this place.</p>
+            <p>
+               <label>Q.</label> 
+               <hi>Why do we Pray by way of Reſpond?</hi>
+            </p>
+            <p>
+               <label>A.</label> In conformity to the primitive practice; and the reaſons are,
+<list>
+                  <item>1. To ſtir up Devotion.</item>
+                  <item>2. To ſtrengthen Affection.</item>
+                  <item>3. To oblige the Worſhippers to grea<g ref="char:EOLhyphen"/>ter Attention and Intention,</item>
+               </list>
+            </p>
+            <p>
+               <label>Q</label> 
+               <hi>Why is <hi>Glory be to the Father, and to the Son, and to the Holy Ghoſt,</hi> ſo often uſed? And why at the end of every Pſalm, and why ſtanding?</hi>
+            </p>
+            <p>
+               <label>A.</label>
+               <list>
+                  <item>1. Becauſe it is of ancient uſe, by which we avouch our Doctrine and Faith of the Trinity againſt all oppoſers.</item>
+                  <item>2. That we may reduce that to practiſe,
+<pb n="5" facs="tcp:105835:4"/>
+which is the ſcope of every Pſalm; and that is, to give Glory to God.</item>
+                  <item>3. We ſtand to ſhew our chearfulneſs in giving glory to God, and how reſol<g ref="char:EOLhyphen"/>ved we are to ſtand faſt in the Faith of the Holy Trinity.</item>
+               </list>
+            </p>
+            <p>
+               <label>Q</label> 
+               <hi>Why is, <hi>As it was in the beginning,</hi> added?</hi>
+            </p>
+            <p>
+               <label>A.</label> Againſt the <hi>Arrians,</hi> who had in<g ref="char:EOLhyphen"/>troduced a new form of Doxology to the diſhonour of Chriſt.</p>
+            <p>
+               <label>Q.</label> 
+               <hi>Why is, <hi>Praiſe ye the Lord,</hi> uſed in this place?</hi>
+            </p>
+            <p>
+               <label>A.</label> To be as an impreſſion invitatory to the following Pſalms; <hi>and let us pray;</hi> is uſually premiſed to incite intention to an enſuing Prayer.</p>
+            <p>
+               <label>Q.</label> 
+               <hi>Why do Pſalms immediately follow?</hi>
+            </p>
+            <p>
+               <label>A.</label> Becauſe it was the Ancient Mode.</p>
+            <p>
+               <label>Q.</label> 
+               <hi>Why do we begin with Pſalm</hi> 95.</p>
+            <p>
+               <label>A.</label> Becauſe it is the fitteſt in all the Service Book to conform us to the right uſe of all the reſt, and to furniſh out the ſervice of God in all due reverence.</p>
+            <p>
+               <label>Q</label> 
+               <hi>Why are the Pſalms ordered to be read over monthly, and why was it the uſe for the Prieſt to read one verſe, and the people another:</hi>
+            </p>
+            <p>
+               <label>A.</label> That they may be made the more
+<pb n="6" facs="tcp:105835:5"/>
+familiar to the people, for they are of all Scripture the fulleſt of Devotion; beſides it was the ancient practice ſo to read them: And the Reaſons why they were thus read by way of Reſponſe, are theſe,
+<list>
+                  <item>1. That we may thus ſtrive who ſhould ſerve God moſt affectionately, which is pleaſing to God.</item>
+                  <item>2. That by relieving one another, we may not grow weary of God's Service.</item>
+               </list>
+            </p>
+            <p>
+               <label>Q.</label> 
+               <hi>Why were the Pſalms read ſtanding?</hi>
+            </p>
+            <p>
+               <label>A.</label> That the Erection of the Body might expreſs the Elevation of the Mind.</p>
+            <p>
+               <label>Q.</label> 
+               <hi>Why after the Pſalms are two Leſſons appointed to be read, one out of the <hi>Old Teſtament</hi> firſt, and then another out of the<hi>New</hi>?</hi>
+            </p>
+            <p>
+               <label>A.</label>
+               <list>
+                  <item>1. In punctual imitation of the An<g ref="char:EOLhyphen"/>cient Church.</item>
+                  <item>2. To ſhew the Harmony and Agree<g ref="char:EOLhyphen"/>ment of both Teſtaments, that we may ſee that fulfilled in the one, which was foreſhewed in the other.</item>
+               </list>
+            </p>
+            <p>
+               <label>Q.</label> 
+               <hi>Why are Hymns appointed to be read after the Firſt and Second Leſſon?</hi>
+            </p>
+            <p>
+               <label>A.</label> St. <hi>Paul</hi> preſſeth the uſe of Hymns, and Chriſt practiſed it, and it became the practiſe of the Church.</p>
+            <p>
+               <pb n="7" facs="tcp:105835:5"/>
+               <label>Q</label> 
+               <hi>What is the proper poſture for Hymns?</hi>
+            </p>
+            <p>
+               <label>A.</label> Standing.
+<list>
+                  <item>1. To ſhew our cheer<g ref="char:EOLhyphen"/>fulneſs in it.</item>
+                  <item>2. It being a proper geſture for praiſe, which is a part of God's Worſhip.</item>
+               </list>
+            </p>
+            <p>
+               <label>Q.</label> 
+               <hi>Why is the</hi> 100. <hi>Pſalm joyned with the Song of <hi>Zachary</hi>?</hi>
+            </p>
+            <p>
+               <label>A.</label> Becauſe they parallel one another, both being Thankſgivings unto God, in<g ref="char:EOLhyphen"/>forced with the ſame Reaſons and Argu<g ref="char:EOLhyphen"/>ments.</p>
+            <p>
+               <label>Q</label> 
+               <hi>Why is the</hi> 98. <hi>Pſalm joyned with the Song of <hi>Mary</hi>?</hi>
+            </p>
+            <p>
+               <label>A.</label> Becauſe <hi>Maries</hi> Hiſtory, and <hi>Da<g ref="char:EOLhyphen"/>vids</hi> Myſtery are for ſubſtance both one.</p>
+            <p>
+               <label>Q.</label> 
+               <hi>Why is the</hi> 67. <hi>Pſalm joyned with the Song of <hi>Simeon</hi>?</hi>
+            </p>
+            <p>
+               <label>A.</label> Becauſe they both treat of one and the ſame thing, and are in ſome ſort parallel.</p>
+            <p>
+               <label>Q.</label> 
+               <hi>Why is the Creed ſaid after the read<g ref="char:EOLhyphen"/>ing of ſome part of Canonical Scripture?</hi>
+            </p>
+            <p>
+               <label>A.</label> Becauſe Faith comes by hearing; we muſt firſt hear and then confeſs.</p>
+            <p>
+               <label>Q.</label> 
+               <hi>Why is it ordered to be read ſtand<g ref="char:EOLhyphen"/>ing?</hi>
+            </p>
+            <p>
+               <pb n="8" facs="tcp:105835:6"/>
+               <label>A.</label> Becauſe this ſtanding, or ſtationary poſture implies a reſolution to ſtand faſt in that Faith which we profeſs.</p>
+            <p>
+               <label>Q.</label> 
+               <hi>Why is it called the Creed?</hi>
+            </p>
+            <p>
+               <label>A.</label> Becauſe it contains the <hi>Credenda, i.e.</hi> Matters to be believed: The word being derived from the Verb <hi>Credo,</hi> which ſig<g ref="char:EOLhyphen"/>nifies to believe. It being a ſhort ſum of Chriſtian Doctrine, containing all things neceſſary to be believed in order to ſal<g ref="char:EOLhyphen"/>vation.</p>
+            <p>
+               <label>Q.</label> 
+               <hi>Why is it called the Apoſtles Creed?</hi>
+            </p>
+            <p>
+               <label>A.</label> Either becauſe they framed it, and ſo theirs for the manner, or becauſe ga<g ref="char:EOLhyphen"/>thered out of their Writings, and ſo theirs for the matter.</p>
+            <p>
+               <label>Q.</label> 
+               <hi>What are the following Prayers?</hi>
+            </p>
+            <p>
+               <label>A.</label> Short Prayers ſelected out of the Scriptures, full of piety and devotion: wherein obſerve,
+<list>
+                  <item>1. The Prieſt's ſalutation to the people, and then the peoples re-ſaluting the Prieſt out of the Scriptures.</item>
+                  <item>2. The Prieſts or Miniſters ſtirring up the people, which is frequently uſed when we are to enter upon any new part of ſervice, becauſe we are apt to grow dull in our devotions.</item>
+               </list>
+            </p>
+            <p>
+               <pb n="9" facs="tcp:105835:6"/>
+               <label>Q.</label> 
+               <hi>Why is, <hi>Lord have mercy upon us,</hi> twice repeated? And why before the Lord's Prayer?</hi>
+            </p>
+            <p>
+               <label>A.</label>
+               <list>
+                  <item>1. To notifie the Trinity we pray to, is it thrice repeated.</item>
+                  <item>2. Before the Lord's Prayer, becauſe it is expedient we implore God's mercy before we uſe that Prayer.</item>
+               </list>
+            </p>
+            <p>
+               <label>Q.</label> 
+               <hi>What are the fol<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>owing Verſes with their Reſponds?</hi>
+               <note n="†" place="margin">The Miniſter, as a ſinner kneels with the People in all Confeſſions of Sins, and Penitential Pray<g ref="char:EOLhyphen"/>ers: as a Prieſt, he ſtands in other Of<g ref="char:EOLhyphen"/>fices, to ſignifie his Office and Authori<g ref="char:EOLhyphen"/>ty, which Office re<g ref="char:EOLhyphen"/>lates to God, and ſo is he in God's ſtead, <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <hi>Cor.</hi> 5.20. to the people, <hi>Heb.</hi> 5.1. and in the peoples ſtead to Godward.</note>
+            </p>
+            <p>
+               <label>A.</label>
+               <note n="*" place="margin">Short, agreeable to Scripture, St. <hi>Mat.</hi> 8.1, 24.</note> Short Prayers of divine extraction moſt what taken out of the <hi>Pſalms,</hi> and therefore is the Miniſter to pronounce them ſtanding.</p>
+            <p>
+               <label>Q.</label> 
+               <hi>Why is this inter<g ref="char:EOLhyphen"/>changeable way of Praying <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o often uſed?</hi>
+            </p>
+            <p>
+               <label>A.</label>
+               <list>
+                  <item>1. Becauſe it was the ancient uſe.</item>
+                  <item>2. It refreſhes the peoples attention, it teaches them their part at publick Prayers, it unites the affections of them all together, and helps to keep them in <gap reason="illegible" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> league of perpetual amity.</item>
+               </list>
+            </p>
+            <p>
+               <pb n="10" facs="tcp:105835:7"/>
+               <label>Q.</label> 
+               <hi>Why do we pray firſt for the King, then for the Ministers, and laſt for the People?</hi>
+            </p>
+            <p>
+               <note place="margin">
+                  <hi>Pſalm</hi> 132.</note>
+               <hi>A.</hi> Becauſe King <hi>Da<g ref="char:EOLhyphen"/>vid</hi> did ſo, from whom we have our pattern.</p>
+            <p>
+               <label>Q.</label> 
+               <hi>Why do we pray for peace in our time?</hi>
+            </p>
+            <p>
+               <label>A.</label> We pray<note n="*" place="margin">In the ſame ſenſe as we pray in the Lord's Prayer for dai<g ref="char:EOLhyphen"/>ly Bread when we have it by us.</note> that it may come where it is not, and that it may continue where it is; we pray alſo for the bleſſing of peace, as well as for peace it ſelf.</p>
+            <p>
+               <label>Q.</label> 
+               <hi>Why do we ſay that none fights for us but God only?</hi>
+            </p>
+            <p>
+               <note place="margin">2 <hi>Cor.</hi> 20.12. <hi>Exod.</hi> 14.14. <hi>Deut.</hi> 1.30. <hi>Iſa.</hi> 31.4.</note>
+               <hi>A.</hi> Becauſe he is principal Agent in all his Churches Victories and Deliverances.</p>
+            <p>
+               <label>Q.</label> 
+               <hi>What are thoſe other Prayers called <hi>Collects,</hi> and why are they ſo called?</hi>
+            </p>
+            <p>
+               <label>A.</label> They are ſhort and full like the beſt Coins, and agreeable to Primitive Patterns; they are of ancient uſage, they are directed to God in the Name of Chriſt, for ſo uſually they conclude.</p>
+            <p>
+               <pb n="11" facs="tcp:105835:7"/>
+               <label>Q.</label> 
+               <hi>Why is the Litany ordered to be read upon <hi>Sundays, Wedneſdays,</hi> and <hi>Fridays</hi>?</hi>
+            </p>
+            <p>
+               <label>A.</label>
+               <list>
+                  <item>1. Upon <hi>Sundays,</hi> as being the chief, and fit to be adorned with the chief Service.</item>
+                  <item>2. Upon <hi>Wedneſdays</hi> and <hi>Fridays</hi> be<g ref="char:EOLhyphen"/>ing in primitive times days of ſolemn Aſ<g ref="char:EOLhyphen"/>ſemblies and Faſting.</item>
+               </list>
+            </p>
+            <p>
+               <label>Q.</label> 
+               <hi>What is the chief end of theſe, and all other Feſtivals?</hi>
+            </p>
+            <p>
+               <label>A.</label> The chief ends are theſe.
+<list>
+                  <item>1. To be a token of that thankfulneſs, and part of that publick honour we owe to God for admirable benefits.</item>
+                  <item>2. To commemorate and imitate the Vertues of the Saints.</item>
+                  <item>3. To expreſs the ſplendor, and out<g ref="char:EOLhyphen"/>ward dignity of our Religion.</item>
+                  <item>4. To be forcible witneſſes of ancient truth.</item>
+                  <item>5. To be provocations to the exerciſe of all piety.</item>
+                  <item>6. To be ſhadows of our endleſs felici<g ref="char:EOLhyphen"/>ty in Heaven.</item>
+                  <item>7. To be everlaſting Records on earth touching by the eye, in a manner, what<g ref="char:EOLhyphen"/>ſoever we believe.</item>
+               </list>
+            </p>
+            <div type="part">
+               <pb n="12" facs="tcp:105835:8"/>
+               <head>The Second Service, ſo far as it extends when there is no Communion, in <hi>Queſtion</hi> and <hi>Anſwer.</hi>
+               </head>
+               <p>
+                  <label>Q.</label> 
+                  <hi>WHY doth the Lord's Prayer be<g ref="char:EOLhyphen"/>gin this Service?</hi>
+               </p>
+               <p>
+                  <label>A.</label> Becauſe it is the Salt to ſeaſon all Divine Offices, as it ought to conclude our Prayers, and ſo ſupply what is want<g ref="char:EOLhyphen"/>ing in them, ſo is it the fitteſt to be a guide to our Prayers.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>Why is the following Prayer premiſed before the Commandments?</hi>
+               </p>
+               <p>
+                  <label>A.</label>
+                  <list>
+                     <item>1. To mind us that all our ſins which are ſo many breaches made upon them, are open to God.</item>
+                     <item>2. To ſhew us, that without the gra<g ref="char:EOLhyphen"/>cious aſſiſtance of God's Spirit we cannot keep them as we ought.</item>
+                  </list>
+               </p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>Why are the Commandments rehear<g ref="char:EOLhyphen"/>ſed before the Communion?</hi>
+               </p>
+               <p>
+                  <label>A.</label> Becauſe the Law is a School-Maſter to bring us to Chriſt, <hi>Gal.</hi> 3.24. By the Law we know ſin, <hi>Rom.</hi> 1.7, 13. and find our ſelves inſufficient to any thing that is good, which drives us to Chriſt, who can ſtrengthen us to all things, <hi>Rom.</hi>
+               </p>
+               <p>
+                  <pb n="13" facs="tcp:105835:8"/>
+                  <label>Q.</label> 
+                  <hi>Why doth the Minister rehearſe the Law ſtanding.</hi>
+               </p>
+               <p>
+                  <label>A.</label> To ſhew his Authority; here is God ſpeaking by the Prieſt, another <hi>Moſes</hi> to the people.</p>
+               <p>
+                  <label>Q</label> 
+                  <hi>Why do the People kneel all the while and crave Gods mercy?</hi>
+               </p>
+               <p>
+                  <label>A.</label>
+                  <list>
+                     <item>1. They acknowledge their own guilt, as to the breach of every Command, imploring God's mercy.</item>
+                     <item>2. They confeſs their own inability to keep them, deſiring God's grace.</item>
+                  </list>
+               </p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What is the Collect for the day?</hi>
+               </p>
+               <p>
+                  <label>A.</label> A Prayer ſumming up the chief things contained in the Epiſtle and Goſpel for the day, and a pious application of them.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>Why is the King ſo often prayed for?</hi>
+               </p>
+               <p>
+                  <label>A.</label> In purſuance of that ſtrict rule of the Apoſtle, that our Prayers ſhould be eſpecially for Kings, 1 <hi>Tim.</hi> 2.1, 2.</p>
+               <p>
+                  <label>Q</label> 
+                  <hi>What is the Epistle?</hi>
+               </p>
+               <p>
+                  <label>A.</label> A portion of Scripture, moſt what taken out of the Apoſtles, writings, ſuch as are moſt eminent for moral inſtruction, appointed to perſonate the Law precede<g ref="char:EOLhyphen"/>ing the Goſpel.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What is the Goſpel?</hi>
+               </p>
+               <p>
+                  <pb n="14" facs="tcp:105835:9"/>
+                  <label>A.</label> A portion of Scripture ſpeaking ei<g ref="char:EOLhyphen"/>ther of Chriſt himſelf, or of ſomething that he remarkably did or ſpake; and therefore to expreſs a more than ordinary reverence to it, all uſe to ſtand at the reading of it, and to give glory to God, before it is read, and thanks to God after.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>What is that Creed which is read after the Goſpel?</hi>
+               </p>
+               <p>
+                  <label>A.</label> The <hi>Nicene</hi> Creed, the ſame in ſub<g ref="char:EOLhyphen"/>ſtance with the forementioned Creeds.</p>
+               <p>
+                  <label>Q.</label> 
+                  <hi>Why is it read after the Epiſtle and Goſpel?</hi>
+               </p>
+               <p>
+                  <label>A.</label> Becauſe the Epiſtle, and Goſpel are as Leſſons to the Second Service, and this is read after the Leſſons for the ſame rea<g ref="char:EOLhyphen"/>ſons as the other Creed was.</p>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="publishers_advertisement">
+            <head>ADVERTISEMENT.</head>
+            <p>THE New Youths behaviour; Containing. 1. His Duty to God; in Meditations and Prayers for Mor<g ref="char:EOLhyphen"/>ning and Evening, with ſome ſhort Rules and Maxims for a good Life. 2. Decency in converſation amongſt men, and of the firſt entrance of a Youth into the Univerſity, with a Collection of Proverbs, moſt uſeful in all Diſcour<g ref="char:EOLhyphen"/>ſes, and for the Government of Life.</p>
+            <p>Rules for our more Devout Behaviour in the time of <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ivine Service in the Church of <hi>England.</hi>
+            </p>
+         </div>
+         <div type="colophon">
+            <p>
+               <hi>
+                  <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>inted for</hi> Sam Keble<g ref="char:punc">▪</g> 
+               <hi>at the</hi> Turks-Head <hi>in</hi> Fleet-ſtreet.</p>
+            <pb facs="tcp:105835:9"/>
+         </div>
+      </back>
+   </text>
+</TEI>
